@@ -13,9 +13,13 @@
     "splitChunks",
     "optimization"
   ],
-  "author": "soul",
+  "author": "",
   "license": "MIT",
   "description": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lhc0229/soul-rollup-build.git"
+  },
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.4",
     "javascript-obfuscator": "^5.1.0",
