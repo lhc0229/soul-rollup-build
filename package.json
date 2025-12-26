@@ -1,0 +1,24 @@
+{
+  "name": "soul-rollup-build",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c scripts/build.js"
+  },
+  "keywords": [
+    "rollup",
+    "build",
+    "vite",
+    "splitChunks",
+    "optimization"
+  ],
+  "author": "soul",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "javascript-obfuscator": "^5.1.0",
+    "rollup": "^4.53.5"
+  }
+}
